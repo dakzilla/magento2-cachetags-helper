@@ -1,0 +1,16 @@
+<?php
+/**
+ * @var $this \Dakzilla\CacheTags\Block\Component
+ */
+?>
+<?php if ($tags = $this->getTags()) { ?>
+    <script type="text/x-magento-init">
+    {
+        "*": {
+            "Dakzilla_CacheTags/js/view/cachetags": {
+                "tags": "<?php echo implode(', ', $tags); ?>"
+            }
+        }
+    }
+    </script>
+<?php } ?>
