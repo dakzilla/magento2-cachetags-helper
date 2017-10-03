@@ -1,4 +1,6 @@
 # Magento 2 Cache Tags Helper
+[![Build Status](https://scrutinizer-ci.com/g/dakzilla/magento2-cachetags-helper/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dakzilla/magento2-cachetags-helper/build-status/master) [![Code Climate](https://codeclimate.com/github/dakzilla/magento2-cachetags-helper/badges/gpa.svg)](https://codeclimate.com/github/dakzilla/magento2-cachetags-helper) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dakzilla/magento2-cachetags-helper/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dakzilla/magento2-cachetags-helper/?branch=master)
+
 Displays the cache tags from the current page in the console.
 
 ![](https://i.imgur.com/1X64r9C.png)
