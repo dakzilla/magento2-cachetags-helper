@@ -14,15 +14,20 @@ class Component extends Template
     /** @var Registry */
     private $_registry;
 
+    /**
+     * Component constructor.
+     * @param Template\Context $context
+     * @param Registry $registry
+     * @param array $data
+     */
     public function __construct(
-        State $state,
         Template\Context $context,
         Registry $registry,
         array $data = []
     )
     {
         $this->_registry = $registry;
-        $this->_state = $state;
+        $this->_state = $context->getAppState();
         parent::__construct($context, $data);
     }
 
